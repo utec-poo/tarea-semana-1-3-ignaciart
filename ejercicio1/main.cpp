@@ -1,17 +1,17 @@
 #include <iostream>
-#include "Tipos.h"
 using namespace std;
+int main (){
+   
+  int x;
+  int y;
+  int z;
+  cout<<"altura: ";
+  cin>>x;
+  cout<<"base: ";
+  cin>>y;
+  z=x*y/2;
+  cout<<"El area es igual a : "<<z;
 
-int main() {
-
-entero base=0, entero altura=0;
-cout << "\ningrese la base:";
-cin >> base;
-cout << "\ningrese la altura:";
-cin >> altura;
-
-
-// ToDO
-
-  return 0;
-}
+return 0;
+  
+  }
